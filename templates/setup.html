@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aegis - Create Account</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Aegis! Create Your New Account</h1>
+        <form id="signup-form">
+            <div class="input-group">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="input-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" required>
+            </div>
+            <div class="input-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" required>
+            </div>
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" required>
+            </div>
+            <div class="input-group">
+                <label for="security-question-1">Security Question 1:</label>
+                <input type="text" id="security-question-1" required>
+                <label for="security-answer-1">Answer:</label>
+                <input type="text" id="security-answer-1" required>
+            </div>
+            <div class="input-group">
+                <label for="security-question-2">Security Question 2:</label>
+                <input type="text" id="security-question-2" required>
+                <label for="security-answer-2">Answer:</label>
+                <input type="text" id="security-answer-2" required>
+            </div>
+            <div class="input-group">
+                <label>Communication Preferences:</label>
+                <input type="checkbox" id="promotional-emails">
+                <label for="promotional-emails">Receive Promotional Emails</label>
+                <input type="checkbox" id="account-notifications">
+                <label for="account-notifications">Receive Account Notifications</label>
+            </div>
+            <div class="input-group">
+                <input type="checkbox" id="terms">
+                <label for="terms">I have read and agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</label>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aegis</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h2><img src="{{ url_for('static', filename='images/authyyy.png') }}" alt="Authy logo" style="height: 100px; width: 100px;"></h2>
+    </header>
+    <section class="features">
+        <h1 class="title">Empowering <span style="color: blue;"><u>Secure</u></span> <span style="color: purple;"><u>Digital</u></span><span style="color: green;"> <u>Lives.</u></span></h1>
+        <div class="feature-box" style="width: 100%;">
+            <h1>Protected under <u>advanced</u></span> encryption</h1>
+        </div>
+        <div class="feature-box" style="width: 100%;">
+            <h1><u>Secure</u> fingerprinting technology.</h1>
+        </div>
+        <div class="picbox">
+            <img src="{{ url_for('static', filename='images/Verified.png') }}" style="height: 50px;width: 50px; left: 50%;">
+
+            <img src="{{ url_for('static', filename='images/granted.png') }}" style="height: 50px;width: 43px; left: 50%;">
+        </div>
+        <p style="font-size: 14px;">Aegis</p>
+    </section>
+    <hr>
+    <section class="join" style="min-height: 10vh;">
+
+            <button class="joinbox" style="max-width: 1000px;width: 1000px;" onclick="window.location.href='/login';">
+                Join the {{USER_AMOUNT}} users already on Aegis!</button>
+        </div>
+    </section>
+</body>
+</html>

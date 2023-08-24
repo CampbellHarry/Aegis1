@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'monospace', sans-serif;
+    background-color: black;
+    scroll-behavior: smooth;
+    max-width: 100%;
+}
+
+header {
+    text-align: center;
+    padding: 5px 0;
+    background-image: linear-gradient(45deg, blue, purple, green);
+    color: white;
+}
+
+.title {
+    font-size: 32px;
+    background-image: linear-gradient(45deg, gold, deeppink);
+    -webkit-background-clip: text;
+    color: transparent    ;
+    transition: transform 0.3s ease;
+}
+
+.features {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 50vh;
+    font-size: xx-large;
+    color: white;
+}
+.join {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 50vh;
+    font-size: xx-large;
+}
+
+.joinbox {
+    width: 40%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 24px;
+    color: white;
+    transition: transform 0.3s ease;
+    border: 2px solid #333333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-image: linear-gradient(45deg, gold, blue) 1;
+    clip-path: inset(0px round 10px);
+    animation: huerotate 6s infinite linear;
+    filter: hue-rotate(360deg);
+    cursor: pointer;
+    border-width: 4px;
+
+}
+
+.feature-box {
+    width: 40%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 24px;
+    color: black;
+    transition: transform 0.3s ease;
+    border: 2px solid #333333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-image: linear-gradient(45deg, gold, deeppink) 1;
+    clip-path: inset(0px round 10px);
+    animation: huerotate 6s infinite linear;
+    filter: hue-rotate(360deg);
+    border-width: 4px;
+    color: white;
+}
+
+
+
+.feature-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-image: linear-gradient(45deg, gold, deeppink) 1;
+    border-width: 8px;
+}
+
+@keyframes huerotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+.picbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: transparent;
+    font-size: 24px;
+    color: black;
+}
+

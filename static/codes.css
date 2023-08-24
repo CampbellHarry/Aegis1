@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'monospace', sans-serif;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    background-color: black;
+}
+
+.authy-codes-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.authy-codes-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.authy-code {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 16px blue;
+    margin-bottom: 20px;
+}
+
+.authy-code-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.authy-code-details {
+    font-size: 16px;
+    color: #555555;
+}
